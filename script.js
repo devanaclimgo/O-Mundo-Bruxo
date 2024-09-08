@@ -19,21 +19,21 @@ let filmes = [
   },
 ];
 
-//console.log(filmes);
 
-let section = document.getElementById("resultados-pesquisa");
-
-let resultados = ""
-
-for(let dado of filmes) {
-  resultados += `
-  <div class="item-resultados">
-    <h2>${dado.titulo}</h2>
-    <p>${dado.descricao}</p>
-    <a href=${dado.link} target="_blank">Mais informações ↗</a>
-  </div>
-  `;
+function pesquisar() {
+  let section = document.getElementById("resultados-pesquisa");
+  
+  let resultados = ""
+  
+  for(let dado of filmes) {
+    resultados += `
+    <div class="item-resultados">
+      <h2>${dado.titulo}</h2>
+      <p>${dado.descricao}</p>
+      <a href=${dado.link} target="_blank">Mais informações ↗</a>
+    </div>
+    `;
+  }
+  
+  section.innerHTML = resultados;
 }
-
-
-section.innerHTML = resultados;
