@@ -1,10 +1,22 @@
 let filmes = [
   {
+    titulo: "Harry Potter e a Pedra Filosofal",
+  descricao: "Descobrindo ser um bruxo, Harry Potter embarca em uma aventura em Hogwarts para impedir que Lord Voldemort obtenha a Pedra Filosofal e a imortalidade.",
+  link: "https://harrypotter.fandom.com/pt-br/wiki/Pedra_Filosofal",
+  tags: "pedra filosofal feitiço proibido magia escola de magia",
+  },
+  {
     titulo: "Harry Potter e a Câmara Secreta",
     descricao:
       "Em 'Harry Potter e a Câmara Secreta', o segundo livro da saga escrita por J.K. Rowling, Harry Potter retorna para Hogwarts, a Escola de Magia e Bruxaria, para mais um ano repleto de aventuras e mistérios. No entanto, algo sinistro paira sobre o castelo: a lenda da Câmara Secreta, um lugar onde um monstro aterroriza os alunos trouxas (não-magos).",
     link: "https://harrypotter.fandom.com/pt-br/wiki/C%C3%A2mara_Secreta",
     tags: "basilisco cobra tom riddle canos"
+  },
+  {
+    titulo: "Harry Potter e o Prisioneiro de Azkaban",
+    descricao: "Um prisioneiro de Azkaban escapa e Harry e seus amigos descobrem que ele pode ser inocente.",
+    link: "https://harrypotter.fandom.com/pt-br/wiki/Prisioneiro_de_Azkaban",
+    tags: "dementor mapa do maroto Sirius Black Remus Lupin patrono vira-tempo vira tempo",
   },
   {
     titulo: "Harry Potter e o Cálice de Fogo",
@@ -14,29 +26,17 @@ let filmes = [
     tags: "labirinto desafios provas baile de inverno"
   },
   {
-    titulo: "Harry Potter e o Enigma do Príncipe",
-    descricao:
-      "Em 'Harry Potter e o Enigma do Príncipe', Lord Voldemort intensifica sua busca pelo poder, e Harry e seus amigos devem se preparar para a batalha final. Descubra os segredos do passado de Voldemort e ajude Harry a desvendar o enigma do Príncipe Mestiço.",
-    link: "https://harrypotter.fandom.com/pt-br/wiki/Enigma_do_Pr%C3%ADncipe",
-    tags: "snape dumbledore regulus black horcrux horcruxes"
-  },
-  {
     titulo: "Harry Potter e a Ordem da Fênix",
     descricao: "Com Voldemort de volta ao poder, Harry lidera um exército de estudantes para aprender a se defender contra as Artes das Trevas.",
     link: "https://harrypotter.fandom.com/pt-br/wiki/Ordem_da_F%C3%A9nix",
     tags: "ministério da magia umbridge exército de dumbledore",
   },
   {
-    titulo: "Harry Potter e o Prisioneiro de Azkaban",
-    descricao: "Um prisioneiro de Azkaban escapa e Harry e seus amigos descobrem que ele pode ser inocente.",
-    link: "https://harrypotter.fandom.com/pt-br/wiki/Prisioneiro_de_Azkaban",
-    tags: "dementor mapa do maroto Sirius Black Remus Lupin patrono vira-tempo vira tempo",
-  },
-  {
-    titulo: "Harry Potter e a Pedra Filosofal",
-  descricao: "Descobrindo ser um bruxo, Harry Potter embarca em uma aventura em Hogwarts para impedir que Lord Voldemort obtenha a Pedra Filosofal e a imortalidade.",
-  link: "https://harrypotter.fandom.com/pt-br/wiki/Pedra_Filosofal",
-  tags: "pedra filosofal feitiço proibido magia escola de magia",
+    titulo: "Harry Potter e o Enigma do Príncipe",
+    descricao:
+      "Em 'Harry Potter e o Enigma do Príncipe', Lord Voldemort intensifica sua busca pelo poder, e Harry e seus amigos devem se preparar para a batalha final. Descubra os segredos do passado de Voldemort e ajude Harry a desvendar o enigma do Príncipe Mestiço.",
+    link: "https://harrypotter.fandom.com/pt-br/wiki/Enigma_do_Pr%C3%ADncipe",
+    tags: "snape dumbledore regulus black horcrux horcruxes"
   },
   {
     titulo: "Harry Potter e as Relíquias da Morte - Parte 1",
