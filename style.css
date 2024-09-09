@@ -27,6 +27,21 @@ section {
 .resultados {
   grid-column: 2/3;
   grid-row: -1/-1;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.resultados::-webkit-scrollbar {
+  width: 20px;
+}
+
+.resultados::-webkit-scrollbar-thumb {
+  background-color: #e5dbbe;
+  border-radius: 4px;
+}
+
+.resultados::-webkit-scrollbar-track {
+  background-color: transparent;
 }
 
 .item-resultados {
