@@ -17,17 +17,16 @@ body {
 main {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
   align-self: center;
 }
 
-section{
+section {
   display: grid;
 }
 
 .resultados {
   grid-column: 2/3;
-  justify-content: center;
+  grid-row: -1/-1;
 }
 
 .item-resultados {
@@ -39,6 +38,7 @@ section{
   grid-template-columns: 1fr;
   gap: 0.5rem;
   margin-right: 5rem;
+  margin-left: 5rem;
   margin-bottom: 2rem;
 }
 
@@ -92,6 +92,7 @@ section{
   color: #f2f2f2;
   text-align: center;
   letter-spacing: 0.15rem;
+  text-shadow: 3px 2px 7px rgba(0, 0, 0, 1.5);
 }
 
 .pergunta input {
@@ -129,14 +130,14 @@ footer {
   margin-bottom: 2rem;
 }
 
-@media (max-width: 1005px) {
-  html {
-    grid-template-columns: 1fr;
+@media (max-width: 1095px) {
+  main {
+    grid-template-columns: auto;
+    grid-template-rows: 2fr;
   }
-  body {
-    margin-top: 0;
-    margin-left: 0;
-    justify-content: end;
+  .resultados {
+    grid-column: -2/-1;
+    place-content: center;
   }
   h1 {
     font-size: 2.7rem;
