@@ -61,7 +61,7 @@ function pesquisar() {
   // se campoPesquisa for uma string sem nada
   if (!campoPesquisa) {
     section.innerHTML =
-      "<p class='sem-resultados'>Nada foi encontrado, digite alguma pergunta.</p>";
+      "<p class='sem-resultados'>Nada foi encontrado, digite alguma palavra.</p>";
     return;
   }
 
