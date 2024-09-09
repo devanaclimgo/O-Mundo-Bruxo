@@ -20,6 +20,36 @@ let filmes = [
     link: "https://harrypotter.fandom.com/pt-br/wiki/Enigma_do_Pr%C3%ADncipe",
     tags: "snape dumbledore regulus black horcrux horcruxes"
   },
+  {
+    titulo: "Harry Potter e a Ordem da Fênix",
+    descricao: "Com Voldemort de volta ao poder, Harry lidera um exército de estudantes para aprender a se defender contra as Artes das Trevas.",
+    link: "https://harrypotter.fandom.com/pt-br/wiki/Ordem_da_F%C3%A9nix",
+    tags: "ministério da magia umbridge exército de dumbledore",
+  },
+  {
+    titulo: "Harry Potter e o Prisioneiro de Azkaban",
+    descricao: "Um prisioneiro de Azkaban escapa e Harry e seus amigos descobrem que ele pode ser inocente.",
+    link: "https://harrypotter.fandom.com/pt-br/wiki/Prisioneiro_de_Azkaban",
+    tags: "dementor mapa do maroto Sirius Black Remus Lupin patrono vira-tempo vira tempo",
+  },
+  {
+    titulo: "Harry Potter e a Pedra Filosofal",
+  descricao: "Descobrindo ser um bruxo, Harry Potter embarca em uma aventura em Hogwarts para impedir que Lord Voldemort obtenha a Pedra Filosofal e a imortalidade.",
+  link: "https://harrypotter.fandom.com/pt-br/wiki/Pedra_Filosofal",
+  tags: "pedra filosofal feitiço proibido magia escola de magia",
+  },
+  {
+    titulo: "Harry Potter e as Relíquias da Morte - Parte 1",
+  descricao: "Com Voldemort no poder, Harry e seus amigos embarcam em uma perigosa missão para encontrar e destruir as Horcruxes, as partes da alma de Voldemort.",
+  link: "https://harrypotter.fandom.com/pt-br/wiki/Rel%C3%ADquias_da_Morte_-_Parte_1",
+  tags: "horcrux relíquias da morte fuga ordem da fenix",
+  },
+  {
+    titulo: "Harry Potter e as Relíquias da Morte - Parte 2",
+  descricao: "A batalha final entre o bem e o mal se aproxima. Harry Potter enfrenta Lord Voldemort em uma batalha épica para salvar o mundo mágico.",
+  link: "https://harrypotter.fandom.com/pt-br/wiki/Rel%C3%ADquias_da_Morte_-_Parte_2",
+  tags: "batalha de hogwarts horcrux relíquias da morte",
+  }
 ];
 
 function pesquisar() {
