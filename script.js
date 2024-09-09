@@ -97,4 +97,10 @@ function pesquisar() {
   // Atribui os resultados gerados à seção HTML
   section.innerHTML = resultados;
 }
+let campoPesquisa = document.getElementById("campo-pesquisa");
 
+campoPesquisa.addEventListener("keyup", (event) => {
+    if (event.key === "Enter") {
+        pesquisar();
+    }
+});
