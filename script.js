@@ -61,7 +61,7 @@ function pesquisar() {
     }
   }
   if (!resultados) {
-    resultados = "<p>Nada foi encontrado</p>";
+    resultados = "<p class='sem-resultados'>Nada foi encontrado.</p>";
   }
 
   // Atribui os resultados gerados à seção HTML
